@@ -1,6 +1,6 @@
 'use strict';
 const memo = new Map();
-//n=0とn=1は決まっているものなので最初から入れておく
+//n=0とn=1は決まっているものなので最初から入れておくよ
 memo.set(0,0);
 memo.set(1,1);
 function fib(n){
